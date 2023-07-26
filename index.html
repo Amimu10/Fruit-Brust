@@ -44,6 +44,7 @@
       .font-lato {
         font-family: "Lato", sans-serif;
       }
+
     </style>
   </head>
 <body>
@@ -157,7 +158,7 @@
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full">
+                <div id="slide4" class="carousel-item relative w-full">
                   <div class="relative">
                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black via-transparent to-transparent"></div>
                     <img src="./images/banner4.png" class="w-full h-screen" alt="Image">
@@ -204,15 +205,230 @@
           <!-- banner ends here -->
           <!-- deal of the day starts here -->
           <section class="deal">
-            <div class="container">
-              
-            </div>
-          </section>
-          <!-- deal of the day ends here -->
-        </main>
+            <div class="container max-w-[1440px] mx-auto px-8 lg:px-20">
+              <div class="flex flex-col lg:flex-row items-center justify-between">
+                <div class="max-w-[615px] flex-1">
+                  <h2 class="color-primary font-lato text-5xl font-extrabold mb-6">Deal of the day</h2>
+                  <p class="text-[#12121299] font-lato font-medium text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="grid grid-cols-4 gap-x-8">
+                  <div class="text-center">
+                    <div class="flex gap-x-6 mb-4">
+                      <h1 class="text-color-primary text-5xl font-lato font-extrabold">29 </h1>
+                      <img src="images/timer-icon.png" alt="" class="inline-block lg:inline-block">
+                    </div>
+                    <span class="font-lato font-medium text-base text-color-secondary -ml-12">Days</span>
+                  </div>
+                  <div class="text-center">
+                    <div class="flex gap-x-6 mb-4">
+                      <h1 class="text-color-primary text-5xl font-lato font-extrabold">29 </h1>
+                      <img src="images/timer-icon.png" alt="" class="inline-block lg:inline-block">
+                    </div>
+                    <span class="font-lato font-medium text-base text-color-secondary -ml-12">Hours</span>
+                  </div>
+                  <div class="text-center">
+                    <div class="flex gap-x-6 mb-4">
+                      <h1 class="text-color-primary text-5xl font-lato font-extrabold">29 </h1>
+                      <img src="images/timer-icon.png" alt="" class="inline-block lg:inline-block">
+                    </div>
+                    <span class="font-lato font-medium text-base text-color-secondary -ml-12">Minutes</span>
+                  </div>
+                  <div class="text-center">
+                    <div class="flex gap-x-6 mb-4">
+                      <h1 class="text-color-primary text-5xl font-lato font-extrabold">29</h1>
+                    </div>
+                    <span class="font-lato font-medium text-base text-color-secondary -ml-12">Seconds</span>
+                  </div>
+                </div>
+              </div>
+             
+<!-- Grid container for cards -->
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:my-14 my-16">
+  <!-- Card 1 -->
+  <div class="card text-center max-w-[230px] mx-auto bg-base-300 rounded-lg shadow-lg px-7 py-4">
+    <img src="./images/fruit6.png" alt="" class="w-[105px] mx-auto">
+    <h5 class="font-lato text-color-primary text-2xl font-bold my-4">12.90$ - 18.85$</h5>
+    <span class="font-lato font-medium text-base text-color-secondary mb-3">Apples</span>
+    <div class="flex mx-auto space-x-4">
+      <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+    </div>
+    <!-- Open the modal using ID.showModal() method -->
+    <button class="text-extra-color mt-4" onclick="document.getElementById('my_modal_1').showModal()">Details</button>
+  </div>
 
-        <footer></footer>
+  <!-- Card 2 -->
+  <div class="card text-center max-w-[230px] mx-auto bg-base-300 rounded-lg shadow-lg px-7 py-4">
+    <img src="./images/fruit7.png" alt="" class="w-[105px] mx-auto">
+    <h5 class="font-lato text-color-primary text-2xl font-bold my-4">15.00$ - 22.50$</h5>
+    <span class="font-lato font-medium text-base text-color-secondary mb-3">Oranges</span>
+    <div class="flex mx-auto space-x-4">
+      <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+    </div>
+    <!-- Open the modal using ID.showModal() method -->
+    <button class="text-extra-color mt-4" onclick="document.getElementById('my_modal_2').showModal()">Details</button>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card text-center max-w-[230px] mx-auto bg-base-300 rounded-lg shadow-lg px-7 py-4">
+    <img src="./images/fruit8.png" alt="" class="w-[105px] mx-auto">
+    <h5 class="font-lato text-color-primary text-2xl font-bold my-4">20.00$ - 30.00$</h5>
+    <span class="font-lato font-medium text-base text-color-secondary mb-3">Berries</span>
+    <div class="flex mx-auto space-x-4">
+      <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+    </div>
+    <!-- Open the modal using ID.showModal() method -->
+    <button class="text-extra-color mt-4" onclick="document.getElementById('my_modal_3').showModal()">Details</button>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card text-center max-w-[230px] mx-auto bg-base-300 rounded-lg shadow-lg px-7 py-4">
+    <img src="./images/fruit9.png" alt="" class="w-[105px] mx-auto">
+    <h5 class="font-lato text-color-primary text-2xl font-bold my-4">8.50$ - 12.50$</h5>
+    <span class="font-lato font-medium text-base text-color-secondary mb-3">Pineapples</span>
+    <div class="flex mx-auto space-x-4">
+      <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+      <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+    </div>
+    <!-- Open the modal using ID.showModal() method -->
+    <button class="text-extra-color mt-4" onclick="document.getElementById('my_modal_4').showModal()">Details</button>
+  </div>
+</div>
+
+<!-- Modals -->
+<dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box w-screen">
+    <div class="card max-w-[400px] mx-auto w-screen">
+      <!-- Modal content goes here -->
+      <div class="text-center">
+        <img src="./images/fruit6.png" alt="" class="w-[150px] mx-auto mb-5 ">
+      <h4 class="font-lato text-color-primary text-4xl font-bold mb-4">Apple</h4>
+      <p class="font-lato font-medium text-base text-color-secondary mb-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+      </div>
+      <div class="flex mx-auto space-x-4">
+        <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      </div>
+      <div class="btn-group flex justify-center space-x-4 mt-4">
+        <button class="flex items-center justify-center border-2 border-[#F85559] bg-white font-lato px-6 py-2 font-lato font-extrabold text-xl text-[#F85559] rounded-lg">Button</button>
+        <button class="font-lato bg-extra-color px-8 py-4 font-lato font-extrabold text-xl text-white rounded-lg">Shop Now</button>
+      </div>
+    </div>
+    <div class="modal-action">
+      <button class="btn cursor-pointer" onclick="document.getElementById('my_modal_2').close()">Close</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box w-screen">
+    <div class="card max-w-[400px] mx-auto w-screen">
+      <!-- Modal content goes here -->
+    <div class="text-center">
+      <img src="./images/fruit7.png" alt="" class="w-[220px] mx-auto">
+      <h4 class="font-lato text-color-primary text-4xl font-bold mb-4">Orange</h4>
+      <p class="font-lato font-medium text-base text-color-secondary mb-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    </div>
+      <div class="flex mx-auto space-x-4">
+        <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      </div>
+      <div class="btn-group flex justify-center space-x-4 mt-4">
+        <button class="flex items-center justify-center border-2 border-[#F85559] bg-white font-lato px-6 py-2 font-lato font-extrabold text-xl text-[#F85559] rounded-lg">Button</button>
+        <button class="font-lato bg-extra-color px-8 py-4 font-lato font-extrabold text-xl text-white rounded-lg">Shop Now</button>
+      </div>
+    </div>
+    <div class="modal-action">
+      <button class="btn cursor-pointer" onclick="document.getElementById('my_modal_2').close()">Close</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box w-screen">
+    <div class="card max-w-[400px] mx-auto w-screen">
+      <!-- Modal content goes here -->
+   <div class="text-center">
+    <img src="./images/fruit6.png" alt="" class="w-[220px] mx-auto mb-5">
+    <h4 class="font-lato text-color-primary text-4xl font-bold mb-4">Red Dragon 2</h4>
+    <p class="font-lato font-medium text-base text-color-secondary mb-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+   </div>
+      <div class="flex mx-auto space-x-4">
+        <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      </div>
+      <div class="btn-group flex justify-center space-x-4 mt-4">
+        <button class="flex items-center justify-center border-2 border-[#F85559] bg-white font-lato px-6 py-2 font-lato font-extrabold text-xl text-[#F85559] rounded-lg">Button</button>
+        <button class="font-lato bg-extra-color px-8 py-4 font-lato font-extrabold text-xl text-white rounded-lg">Shop Now</button>
+      </div>
+    </div>
+    <div class="modal-action">
+      <button class="btn cursor-pointer" onclick="document.getElementById('my_modal_3').close()">Close</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box w-screen">
+    <div class="card max-w-[400px] mx-auto w-screen">
+      <!-- Modal content goes here -->
+    <div class="text-center">
+      <img src="./images/fruit9.png" alt="" class="w-[220px] mx-auto">
+      <h4 class="font-lato text-color-primary text-4xl font-bold mb-4">Banana</h4>
+      <p class="font-lato font-medium text-base text-color-secondary mb-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    </div>
+      <div class="flex mx-auto space-x-4">
+        <img src="./images/deal-icon-1.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-2.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px] ">
+        <img src="./images/deal-icon-3.png" alt="" class="w-[18px]">
+      </div>
+      <div class="btn-group flex justify-center space-x-4 mt-4">
+        <button class="flex items-center justify-center border-2 border-[#F85559] bg-white font-lato px-6 py-2 font-lato font-extrabold text-xl text-[#F85559] rounded-lg">Button</button>
+        <button class="font-lato bg-extra-color px-8 py-4 font-lato font-extrabold text-xl text-white rounded-lg">Shop Now</button>
+      </div>
+    </div>
+    <div class="modal-action">
+      <button class="btn cursor-pointer" onclick="document.getElementById('my_modal_4').close()">Close</button>
+    </div>
+  </form>
+</dialog>
+<div class="text-center">
+  <button class="font-lato bg-extra-color px-8 py-5 font-lato font-extrabold text-xl text-white rounded-lg mt-8">Shop All</button>
+</div>
+</section>
+</div>
+          <!-- deal of the day ends here -->
+</main>
+
+<footer>
+          
+</footer>
       </body>
     </html>
   </body>
-</html>
+</html>                  
